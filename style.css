@@ -1,0 +1,35 @@
+body,div,p{
+	padding:0;
+	margin:0;
+	background-color:#68cdd5;
+	color:white;
+	font-size:2.5rem;
+	line-height:5rem;
+}
+html{
+	font-size:62.5%;
+}
+/*******返回******/
+.back{
+	margin-top:2rem;
+	margin-left:3.5rem;
+}
+/******主要内容******/
+.main{
+	width:70%;
+	margin:4rem auto 17rem;;
+	position:relative;
+
+}
+.logo{
+    margin:0 auto 12rem;
+    display:block;
+}
+.footer{
+	width:70%;
+	display:flex;
+	margin:0 auto 17rem;
+	justify-content: space-between;
+	text-align:center;
+}
+	
