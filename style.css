@@ -19,7 +19,9 @@ html{
 	width:70%;
 	margin:4rem auto 17rem;;
 	position:relative;
-
+}
+.description{
+	padding:0 1rem 0 3.5rem;
 }
 .logo{
     margin:0 auto 12rem;
@@ -32,4 +34,3 @@ html{
 	justify-content: space-between;
 	text-align:center;
 }
-	
