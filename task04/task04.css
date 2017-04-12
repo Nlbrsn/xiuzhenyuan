@@ -30,6 +30,18 @@ body{background:#eff0f4;}
 	flex-wrap:nowrap;
 	margin-bottom:1rem;
 }
+::-webkit-input-placeholder {  
+	color:#e1e5e7;
+}
+:-moz-placeholder {
+	color:#e1e5e7;
+}
+::-moz-placeholder { 
+	color:#e1e5e7;
+}
+:-ms-input-placeholder { 
+	color:#e1e5e7;
+} 
 .phone,.lock{
 	margin:0 3.1rem;
 }
@@ -43,7 +55,6 @@ input{
 	width:100%;
 	height:2.5rem;
 	font-size:2.3rem;
-	color:#e1e5e7;
 }
 a{
 	text-decoration:none;
