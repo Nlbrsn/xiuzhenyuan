@@ -1,14 +1,23 @@
 /*********重置*********/
 *{padding:0;margin:0;}
 html{font-size:625%;}
-body{font-size:0.14rem;}
+body{font-size:0.12rem;}
 ul,li{list-style:none;}
 /********个人主页********/
-header{
-	background:#5fc0cd;
-	color:#fff;
+header, footer {
+    position: fixed;
+    padding: 0.05rem 0.1rem;
+    line-height: 0.3rem;
+	left: 0;
+    right: 0;
+}
+
+header {
+    top:0;
+    height:0.3rem;
+    background:#5fc0cd;
+    color:#fff;
 	text-align:center;
-	padding:0.1rem 0 0.1rem 0.1rem;
 }
 a{
 	text-decoration:none;
@@ -16,16 +25,25 @@ a{
 	float:left;
 }
 /*******高素雅*******/
+.main{
+	position: absolute;
+	top: 0.4rem;
+	bottom: 0.6rem;
+	width:100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
 .h-card{
+	height: auto;
+	
 	height:2rem;
 	width:100%;
 	color:#fff;
 	position:relative;
 	background: url('images/background.png') no-repeat center;
-    	background-size: cover;
+    background-size: cover;
 }
 #photo{
-
 	position: absolute;
 	left: 0.2rem;
 	top: 50%;
@@ -42,13 +60,14 @@ img[src="images/photo.png"]{
 div.h-card p{
 	margin:.05rem 0;
 }
+div.name p:first-child{
+	font-size:.16rem;
+}
 .name{
 	position:absolute;
 	top:50%;
 	transform:translateY(-50%);
-	margin-left: 1.3rem;
-
-	
+	margin-left: 1.3rem;	
 }
 img[src="images/adr.png"]{
 	max-width:.16rem;
@@ -69,15 +88,13 @@ summary > span{
 }
 /********住家不含餐********/
 ul{
-padding: 0 .1rem;
-	
+padding:0 .1rem .1rem ;
 }
 li{
-
     position: relative;
-    padding: .15rem .1rem;
+    padding: .12rem .1rem;
     min-height: 0.2rem;
-    line-height: .2rem;
+    line-height:0.2rem;
     border-bottom: 1px solid #ccc;
     overflow: auto;
 }
@@ -86,7 +103,7 @@ li{
 	background-repeat:no-repeat;
 	background-position:left;
 	display:inline-block;
-	padding: 0.1rem 0.2rem ;
+	padding: 0.05rem 0.2rem ;
 	background-size:0.16rem;
 	
 }
@@ -95,7 +112,6 @@ li > div{
 	display:inline-block;
 }
 .left{
-
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -113,6 +129,8 @@ li > div{
 footer {
 	display: flex;
 	padding: 0.1rem;
+	bottom:0;
+	background:#fff;
 }
 footer > button {
 	flex: 1;
