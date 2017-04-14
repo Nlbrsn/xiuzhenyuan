@@ -1,9 +1,9 @@
-/*********ÖØÖÃ*********/
+/*********é‡ç½®*********/
 *{padding:0;margin:0;}
 html{font-size:625%;}
 body{font-size:0.14rem;}
 ul,li{list-style:none;}
-/********¸öÈËÖ÷Ò³********/
+/********ä¸ªäººä¸»é¡µ********/
 header{
 	background:#5fc0cd;
 	color:#fff;
@@ -15,14 +15,14 @@ a{
 	color:#fff;
 	float:left;
 }
-/*******¸ßËØÑÅ*******/
+/*******é«˜ç´ é›…*******/
 .h-card{
 	height:2rem;
 	width:100%;
 	color:#fff;
 	position:relative;
 	background: url('images/background.png') no-repeat center;
-    background-size: cover;
+    	background-size: cover;
 }
 #photo{
 
@@ -37,7 +37,7 @@ a{
 	overflow: hidden;
 }
 img[src="images/photo.png"]{
-	width: 0.7rem;
+	width:.7rem;
 }
 div.h-card p{
 	margin:.05rem 0;
@@ -58,7 +58,7 @@ span{
 	display:inline-block;
 	vertical-align:middle;
 }
-/********×¨Òµ¼¼ÄÜ********/
+/********ä¸“ä¸šæŠ€èƒ½********/
 summary{
 	padding:.2rem;
 	border-bottom:.02rem solid #e1e5e7;
@@ -67,14 +67,14 @@ summary > span{
 	padding-left:.1rem;
 	border-left:.03rem solid #5fc0cd;
 }
-/********×¡¼Ò²»º¬²Í********/
+/********ä½å®¶ä¸å«é¤********/
 ul{
 padding: 0 .1rem;
 	
 }
 li{
 
-	position: relative;
+    position: relative;
     padding: .15rem .1rem;
     min-height: 0.2rem;
     line-height: .2rem;
@@ -90,13 +90,13 @@ li{
 	background-size:0.16rem;
 	
 }
-/*******´ÓÒµÄêÏŞ*******/
+/*******ä»ä¸šå¹´é™*******/
 li > div{
 	display:inline-block;
 }
 .left{
 
-	position: absolute;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 5em;
@@ -109,7 +109,7 @@ li > div{
 .red{
 	color:red;
 }
-/*******ÁôÑÔ******/
+/*******ç•™è¨€******/
 footer {
 	display: flex;
 	padding: 0.1rem;
