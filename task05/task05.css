@@ -17,7 +17,7 @@ a{
 }
 /*******∏ﬂÀÿ—≈*******/
 .h-card{
-	height:2.5rem;
+	height:2rem;
 	width:100%;
 	color:#fff;
 	position:relative;
@@ -25,19 +25,26 @@ a{
     background-size: cover;
 }
 img[src="images/photo.png"]{
-	margin:.8rem .6rem;
-    vertical-align: middle;
-	max-width:1rem;
-	max-height:1rem;
+border-radius: 50%;
+overflow: hidden;
+	position:absolute;
+	top:50%;
+	left:.3rem;
+	transform: translateY(-50%);
+	width: 0.74rem;
+height: 0.74rem;
 }
 
 div.h-card p{
-	margin:.1rem 0;
+	margin:.05rem 0;
 }
 .name{
 	position:absolute;
-	left:1.9rem;
-	top:.9rem;
+	top:50%;
+	transform:translateY(-50%);
+	margin-left: 1.3rem;
+
+	
 }
 img[src="images/adr.png"]{
 	max-width:.16rem;
@@ -94,6 +101,9 @@ li > div{
 }
 .right{
 	margin-left: 6em;
+}
+.red{
+	color:red;
 }
 /*******¡Ù—‘******/
 footer {
