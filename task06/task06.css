@@ -20,14 +20,15 @@ text-decoration:none;
 
 /*****按钮（找雇主，找护工）****/
 header{
-display:table-cell;
 position:fixed;
 top:0;
-width:100%;
+left:0;
+right:0;
 background-color:#5fc0cd;
 text-align:center;
 line-height:5rem;
 vertical-align:middle;
+z-index:100px;
 }
 header button:first-child{
 border:0;
@@ -38,6 +39,10 @@ header button:last-child{
 border:0;
 background:#fff;
 color:#5fc0cd;
+}
+.btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child){
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
 }
 /*****按钮结束****/
 
@@ -72,7 +77,6 @@ transform:translateY(-50%);
 
 /****下拉表单整体****/
 .menu{	
-margin-top:5rem;
 border-bottom:1px solid #ccc;
 text-align:center;
 }
@@ -118,10 +122,14 @@ padding:10px 0;
 /*****下拉表单具体结束*******/
 
 /*******list*******/
+.list{
+margin-bottom:20px;
+}
 div.list li{
 line-height: 30px;
 border-bottom: 1px solid #ccc;
 font-size: 16px;
+padding:0 10px;
 }
 li span{
 padding-left:1.3rem;
@@ -133,7 +141,7 @@ color: black;
 }
 .right{
 float: right;
-padding-right:1rem;
+
 color: red;
 }
 a{
@@ -148,7 +156,6 @@ footer{
 position: fixed;
 bottom: 0;
 height: 7rem;
-width: 100%;
 left: 0;
 right: 0;
 text-align:center;
@@ -195,4 +202,19 @@ overflow:hidden;
 	font-size:12px;
 	}
 
+}
+/*****修正******/
+.main{
+position:absolute;
+top:5rem;
+bottom:7rem;
+width:100%;
+overflow-y: auto;
+overflow-x: hidden;
+}
+.float-right{
+float:right;
+}
+.float-left{
+float:left;
 }
