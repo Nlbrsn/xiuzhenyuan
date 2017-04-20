@@ -200,7 +200,7 @@ overflow:hidden;
 	.btn1,.btn2{
 	width:60px;
 	font-size:12px;
-	}
+}
 
 }
 /*****ÐÞÕý******/
@@ -217,4 +217,7 @@ float:right;
 }
 .float-left{
 float:left;
+}
+select{
+width:30rem;
 }
