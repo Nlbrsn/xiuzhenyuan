@@ -1,0 +1,147 @@
+/*=======重置======*/
+body,div,header,img,span,p,footer,table,ul{
+padding:0;margin:0;
+}
+ul{
+list-style:none;
+}
+/*======结果======*/
+.home,.about{
+margin:15px 10px;
+float:left;
+}
+.about{
+float:right;
+}
+header{
+position:fixed;
+top:0;
+left:0;
+right:0;
+height:70px;
+line-height:70px;
+text-align:center;
+background-color:#29bde0;
+color:#fff;
+font-size:20px;
+border-bottom:1px solid #56C9E3;
+}
+/*======主体======*/
+.main{
+margin-top:70px;
+margin-bottom:50px;
+}
+/*================蓝底内容=================*/
+/*======图片======*/
+.victory{
+background-color:#29bde0;
+padding-top:1rem;
+}
+.victory .img{
+margin:1rem auto;
+}
+/*=======图片结束=====*/
+/*======橙色文字======*/
+.victory p{
+font-size:20px;
+font-weight:bold;
+color:#FAC770;
+margin:3rem;
+}
+/*=====橙色文字结束======*/
+/*======表单======*/
+div.victory p:nth-child(3),table,div.victory ul{
+font-size:16px;
+font-weight:normal;
+color:#fff;
+margin:.2rem 3rem;
+}
+td{
+width:8rem;
+}
+td span{
+letter-spacing:16px;
+}
+div.victory ul{
+padding-bottom:3rem;
+border-bottom:1px solid #31a8c4;
+}
+/*=========表单结束=======*/
+
+/*=============蓝底内容结束============*/
+/*=========表格==========*/
+{
+
+}
+ul.list li{
+padding:0 3rem;
+border-bottom:1px solid #ddd;
+border-top:1px solid #ddd;
+
+}
+ul.list{
+margin-top:-2px;
+}
+ul.list li:last-child{
+border-bottom:2px solid #ddd;
+}
+h4{
+display:inline-block;
+}
+.list span{
+float:right;
+color:#d6d6d6;
+font-size:12px;
+line-height:34px;
+}
+.list p{
+color:#b9b9b9;
+font-size:14px;
+margin:.2rem;
+}
+.list p:last-child{
+margin-bottom:1rem;
+}
+
+/*=======底部======*/
+footer button{
+margin:10px;
+width:130px;
+}
+footer{
+text-align:center;
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+display:inline-block;
+height:50px;
+background-color: rgba(41,189,224,0.5);
+}
+@media \0screen\,screen\9 {/* 只支持IE6、7、8 */
+  .footer{
+    background-color:#29bde0;
+    filter:Alpha(opacity=50);
+    position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+  }
+}
+/*=======图片======*/
+.img{background:url("img/result/victory.png")  no-repeat;}
+.about{height:40px;width:40px;background-position:0 0;}
+.home{height:42px;width:51px;background-position:-168px 0;}
+.pic-victory{height:205px;width:351px;background-position:0 -59px;}
+
+@media screen and (max-width:500px){
+	.pic-victory{background:url("img/result/img.png")  no-repeat;}
+	.pic-victory{height:103px;width:175px;background-position:0 -40px;}
+	
+	p:nth-child(3),table,ul{
+	font-size:14px;
+	}
+	td span{
+	letter-spacing:14px;
+	}
+}
+
+ 

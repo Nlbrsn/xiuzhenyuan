@@ -1,0 +1,174 @@
+/*=======重置======*/
+body,div,header,img,span,footer{
+padding:0;margin:0;
+}
+body{
+background-color:#29bde0 !important;
+}
+/*======投票======*/
+.more,.cancel{
+margin:15px 10px;
+float:left;
+}
+.cancel{
+float:right;
+}
+header{
+position:fixed;
+top:0;
+left:0;
+right:0;
+height:50px;
+line-height:50px;
+text-align:center;
+background-color:#29bde0;
+color:#fff;
+font-size:20px;
+}
+.col-xs-4{position:static !important;/***position设为默认值，头像不会遮挡顶部***/}
+/*======主体======*/
+
+.main{
+background-color:#29bde0;
+margin-top:50px;
+margin-bottom:70px;
+left:0;
+right:0;
+}
+.main p{
+font-size:16px;
+color:#fff;
+margin:.5rem 4rem;
+overflow-y: auto;
+overflow-x: hidden;
+
+}
+
+/*=======音频======*/
+.main-head{
+height:100px;
+}
+.music{
+background-color:#b9e9f5;
+line-height:50px;
+font-size:16px;
+}
+div.music span{
+margin-left:3rem;
+}
+div.music .img{
+display:inline-block;
+float:right;
+margin:15px 5px;
+}
+
+.bg{
+background:url("img/vote/img.png")  no-repeat #29bde0;
+margin:0 5rem;
+}
+
+/*======头像=======*/
+.box{
+border:.7rem solid #fff;
+width:10rem;
+margin:0 auto;
+}
+.top-box{
+padding:2.3rem;
+background:#F3C881;
+font-size:16px;
+text-align:center;
+}
+.bottom-box{
+padding:.3rem;
+text-align:center;
+background:#82AF9B;
+color:#fff;
+}
+
+/*=======头像结束======*/
+/*=======图标显示======*/
+.icons{
+margin:0 auto;
+text-align:center;
+height:50px;
+}
+
+div.col-xs-4 .img{
+display:inline-block;
+margin:1rem .2rem;
+}
+.hid{
+display:none;
+height:50px;
+}
+.try{
+width:10rem;
+margin:0 auto;
+}
+.try:hover{cursor:pointer;}
+.try:hover .hid{
+display:block;
+}
+
+.icons:hover .hid{
+display:none;
+}
+/*=======图标显示结束======*/
+
+
+@media screen and (max-width:430px){
+	p,span,.main p{
+	font-size:14px;
+	}
+	.box{
+	border:.5rem solid #fff;
+	width:5rem;
+	height:5rem;
+	margin:0 auto;
+	}
+	.top-box{
+	padding:.2rem;
+	font-size:14px;
+	}
+	.bottom-box{
+	font-size:5px;
+	}
+	.try{
+	width:5rem;
+	}
+}
+
+
+/*=====底部======*/
+footer{
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+height:70px;
+text-align:center;
+background-color:#29bde0;
+color:#fff;
+font-size:20px;
+}
+footer button{
+background-color:#F8B445;
+width:10rem;
+height:3rem;
+line-height:3rem;
+margin:2rem auto 3rem;
+border:0;
+color:#fff;
+}
+/*======底部结束======*/
+/*======图片======*/
+.img{background:url("img/vote/img.png")  no-repeat;}
+.target{height:15px;width:15px;background-position:-67px -61px;}
+.knife{height:15px;width:15px;background-position:0 -60px;}
+.bg{height:13px;width:15px;background-position:-14px -32px;}
+.glass{height:15px;width:16px;background-position:-34px -62px;}
+.cross{height:15px;width:16px;background-position:-94px -62px;}
+.cancel{height:18px;width:19px;background-position:-74px 0;}
+.more{height:20px;width:20px;background-position:-10px 0;}
+.icon-radio{height:27px;width:27px;background-position:-69px -25px;}
