@@ -45,6 +45,12 @@ transform: translateY(-50%);
 right:1rem;
 
 }
+.icon-btn{
+position:absolute;
+top: 50%;
+transform: translateY(-50%);
+right:1rem;
+}
 
 /****Ö÷Ìå****/
 h2{

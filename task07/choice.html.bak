@@ -26,10 +26,10 @@
 				
 			<p>有1133个用户正在玩此款游戏</p>
 		</div>
-		<img src="img/btn.png" class="icon-btn">
 		<div>
 			<div class="box">白痴版</div>
 			<p class="last">有1133个用户正在玩此款游戏</p>
+			<img src="img/btn.png" class="icon-btn">
 			<p class="cercle">
 				<span class="round first"></span>
 				<span class="round"></span>

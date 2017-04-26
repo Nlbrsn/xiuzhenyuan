@@ -163,7 +163,7 @@ background-size:77px,54px;
 }
 .knife{height:11px;width:11px;background-position:0 -42px;}
 .cross{height:11px;width:11px;background-position:-66px -43px;}
-.glass{height:11px;width:11px;background-position:-24px -43px;}
+.glass{height:11px;width:11px;background-position:-34px -43px;}
 .target{height:11px;width:11px;background-position:-47px -43px;}
 
 	p,span,.main p{
