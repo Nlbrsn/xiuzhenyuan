@@ -7,7 +7,7 @@ background-color:#29bde0 !important;
 }
 /*======投票======*/
 .more,.cancel{
-margin:15px 10px;
+margin:20px 10px;
 float:left;
 }
 .cancel{
@@ -38,7 +38,7 @@ right:0;
 .main p{
 font-size:16px;
 color:#fff;
-margin:.5rem 4rem;
+margin:5px 50px;
 overflow-y: auto;
 overflow-x: hidden;
 
@@ -54,7 +54,7 @@ line-height:50px;
 font-size:16px;
 }
 div.music span{
-margin-left:3rem;
+margin-left:30px;
 }
 div.music .img{
 display:inline-block;
@@ -64,23 +64,29 @@ margin:15px 5px;
 
 .bg{
 background:url("img/vote/img.png")  no-repeat #29bde0;
-margin:0 5rem;
+margin:0 50px;
 }
 
 /*======头像=======*/
+.avatar{
+margin-top:30px;
+}
 .box{
-border:.7rem solid #fff;
-width:10rem;
+border:3px solid #fff;
+width:76px;
+height:76px;
 margin:0 auto;
 }
 .top-box{
-padding:2.3rem;
+width:100%;
+height:50px;
 background:#F3C881;
 font-size:16px;
+line-height:50px;
 text-align:center;
 }
 .bottom-box{
-padding:.3rem;
+height:20px;
 text-align:center;
 background:#82AF9B;
 color:#fff;
@@ -96,15 +102,17 @@ height:50px;
 
 div.col-xs-4 .img{
 display:inline-block;
-margin:1rem .2rem;
+margin:10px 2px;
 }
 .hid{
 display:none;
 height:50px;
 }
 .try{
-width:10rem;
+width:100px;
 margin:0 auto;
+
+text-align:center;
 }
 .try:hover{cursor:pointer;}
 .try:hover .hid{
@@ -125,7 +133,7 @@ position:fixed;
 bottom:0;
 left:0;
 right:0;
-height:70px;
+height:90px;
 text-align:center;
 background-color:#29bde0;
 color:#fff;
@@ -133,10 +141,10 @@ font-size:20px;
 }
 footer button{
 background-color:#F8B445;
-width:10rem;
-height:3rem;
-line-height:3rem;
-margin:2rem auto 3rem;
+width:200px;
+height:50px;
+line-height:50px;
+margin:20px auto;
 border:0;
 color:#fff;
 }
@@ -151,12 +159,8 @@ color:#fff;
 .cancel{height:18px;width:19px;background-position:-74px 0;}
 .more{height:20px;width:20px;background-position:-10px 0;}
 .icon-radio{height:27px;width:27px;background-position:-69px -25px;}
-/*======媒体查询====*/
-@media screen and (max-width:430px){
+/*======媒体查询====
 
-div.col-xs-4 .img{
-margin:1rem 0;
-}
 .knife,.cross,.glass,.target{
 background:url("img/vote/img.png")  no-repeat;
 background-size:77px,54px;
@@ -166,30 +170,21 @@ background-size:77px,54px;
 .glass{height:11px;width:11px;background-position:-24px -43px;}
 .target{height:11px;width:11px;background-position:-47px -43px;}
 
+
+*/
+@media screen and (max-width:350px){
+
+.try{
+width:auto;
+}
+div.col-xs-4 .img{
+margin:1rem 0;
+}
 	p,span,.main p{
 	font-size:14px;
 	}
 	header span{
 	font-size:20px;
 	}
-	.box{
-	border:.5rem solid #fff;
-	width:5rem;
-	height:5rem;
-	margin:0 auto;
-	}
-	.top-box,footer{
-	padding:.2rem;
-	font-size:14px;
-	}
-	.bottom-box{
-	font-size:5px;
-	}
-	.try{
-	width:5rem;
-	}
-	footer button{
-	width:7rem;
-	height:3rem;
-	}
+
 }
