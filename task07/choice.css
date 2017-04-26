@@ -25,16 +25,16 @@ vertical-align:middle;
 .history,.main{
 background:#fff;
 width:90%;
-margin:2rem auto;
+margin:20px auto;
 border:1px solid #c9c9c9;
 color:#9a9a9a;
-line-height:5rem;
-font-size:2rem;
+line-height:50px;
+font-size:20px;
 height:100%;
 }
 .history{
-height:5rem;
-margin-top:7rem;
+height:50px;
+margin-top:70px;
 position:relative;
 
 }
@@ -42,8 +42,7 @@ div.history img{
 position:absolute;
 top: 50%;
 transform: translateY(-50%);
-right:1rem;
-
+right:10px;
 }
 
 /****主体****/
@@ -56,13 +55,13 @@ color:#fbb435 !important;
 .box{
 background-color:#69d1e9;
 color:#fff;
-height:8rem;
+height:80px;
 width:80%;
-line-height:8rem;
+line-height:80px;
 margin:0 auto;
 }
 p{
-font-size:1.6rem;
+font-size:16px;
 margin:0 !important;
 }
 /******三角按钮*****/
@@ -73,7 +72,7 @@ position:relative;
 position:absolute;
 top: 50%;
 transform: translateY(-50%);
-right:1rem;
+right:10px;
 }
 img{
 width:15px;
@@ -83,10 +82,9 @@ width:15px;
 display:inline-block;
 background:#f0f0f0;
 border-radius:50%;
-width:1.5rem;
-height:1.5rem;
+width:15px;
+height:15px;
 margin:0;
-
 }
 .first{
 background:#69d1e9;
@@ -97,19 +95,19 @@ padding-bottom:1rem;
 }
 .last{
 line-height:0;
-padding:2rem 0;
+padding:20px 0;
 }
-
+/***媒体查询****/
 @media screen and (max-width:500px){
-span,p,div{
-font-size:14px;
-}
-.history span{
-font-size:16px;
-}
-h2{
-font-size:16px !important;
-}
+	span,p,div{
+	font-size:14px;
+	}
+	.history span{
+	font-size:16px;
+	}
+	h2{
+	font-size:16px !important;
+	}
 }
 
 a{text-decoration:none !important;}

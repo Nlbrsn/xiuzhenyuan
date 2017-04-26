@@ -35,10 +35,10 @@ margin-bottom:50px;
 /*======图片======*/
 .victory{
 background-color:#29bde0;
-padding-top:1rem;
+padding-top:10px;
 }
 .victory .img{
-margin:1rem auto;
+margin:10px auto;
 }
 /*=======图片结束=====*/
 /*======橙色文字======*/
@@ -46,7 +46,7 @@ margin:1rem auto;
 font-size:20px;
 font-weight:bold;
 color:#FAC770;
-margin:3rem;
+margin:30px;
 }
 /*=====橙色文字结束======*/
 /*======表单======*/
@@ -54,16 +54,16 @@ div.victory p:nth-child(3),table,div.victory ul{
 font-size:16px;
 font-weight:normal;
 color:#fff;
-margin:.2rem 3rem;
+margin:2px 30px;
 }
 td{
-width:8rem;
+width:80px;
 }
 td span{
 letter-spacing:16px;
 }
 div.victory ul{
-padding-bottom:3rem;
+padding-bottom:30px;
 border-bottom:1px solid #31a8c4;
 }
 /*=========表单结束=======*/
@@ -74,7 +74,7 @@ border-bottom:1px solid #31a8c4;
 
 }
 ul.list li{
-padding:0 3rem;
+padding:0 30px;
 border-bottom:1px solid #ddd;
 border-top:1px solid #ddd;
 
@@ -97,10 +97,10 @@ line-height:34px;
 .list p{
 color:#b9b9b9;
 font-size:14px;
-margin:.2rem;
+margin:2px;
 }
 .list p:last-child{
-margin-bottom:1rem;
+margin-bottom:10px;
 }
 
 /*=======底部======*/
@@ -129,31 +129,31 @@ background-color: rgba(41,189,224,0.5);
 /*=======图片======*/
 .img{
 background:url("img/result/victory.png")  no-repeat;
-background-size:29.25rem,22rem;	
+background-size:351px,264px;	
 }
-.about{height:3.4rem;width:3.4rem;background-position:0 0;}
+.about{height:41px;width:41px;background-position:0 0;}
 .home{height:42px;width:51px;background-position:-168px 0;}
 .pic-victory{height:205px;width:351px;background-position:0 -59px;}
 @media screen and (max-width:500px){
 	/*======图片=====*/
 	.img{
 	background:url("img/result/victory.png")  no-repeat;
-	background-size:20.475rem,15.4rem;
+	background-size:246px,185px;
 	}
 	.home{
-	height:2.45rem;
-	width:2.975rem;
-	background-position:-117.6px 0;
+	height:29px;
+	width:35px;
+	background-position:-117px 0;
 	transform:translate(15%,15%);
 	}
 	.pic-victory{
-	height:11.9rem;
-	width:20.475rem;
-	background-position:0 -3.44rem;
+	height:143px;
+	width:246px;
+	background-position:0 -41px;
 	}
 	.about{
-	height:2.38rem;
-	width:2.38rem;
+	height:29px;
+	width:29px;
 	background-position:0 0;
 	transform:translate(15%,15%);
 	}
@@ -177,3 +177,4 @@ background-size:29.25rem,22rem;
 
 }
 a{text-decoration:none !important;}
+
