@@ -1,0 +1,342 @@
+/*====重置=====*/
+html{
+font-size:625%;
+}
+body,div,header,footer,nav,p,span,a,ul,li{
+margin:0;
+padding:0;
+}
+ul{
+display:inline-block;
+list-style:none;
+}
+a,li{
+text-decoration:none !important;
+}
+
+span{
+display:inline-block;
+}
+.title{
+margin-top:1rem;
+margin-bottom:.5rem;
+font-size:18px;
+font-weight:bold;
+color:#333;
+text-align:center;
+}
+/*=====重置结束=====*/
+/*======头部=====*/
+/*联系方式*/
+header .tel{
+color:#29B078;
+}
+.tel{
+line-height:29px;
+}
+header div.text-right span{
+position: relative;
+top: 3px;
+margin-left:0.2rem;
+}
+/*联系方式结束*/
+header>nav {
+height:1rem;
+background-color:#29B078;
+}
+header>nav .container{
+height:100px;
+}
+header>nav li{
+padding:0 !important;
+text-align:center;
+}
+header>nav a{
+display:inline-block;
+padding:0 20px;
+height:100px;
+font-size:16px;
+color:white;
+line-height:100px;
+}
+header>nav a:hover,header>nav a:visited{
+border-bottom:3px solid #fff;
+color:#fff;
+}
+/*======头部结束=====*/
+/*======主体=====*/
+.main{
+background-color:#FAFAFA;
+}
+/*=====优势=====*/
+.advantage{
+padding-top:1.65rem;
+}
+div.main dt{
+padding:20px 0;
+font-size:18px;
+}
+
+.connection{
+padding:0 0.4rem;
+}
+div.main dd,.last p{
+font-size:16px;
+color:#AFAFAF;
+line-height:25px;
+}
+
+.last{
+padding:.5rem 0 .5rem .5rem;
+border-left:1px dashed #ccc;
+font-size:18px;
+}
+.last span{
+color:#1BA36E;
+}
+.none{
+position:relative;
+height:.7rem;
+}
+.none div{
+position:absolute;
+bottom:0;
+left:50%;
+transform:translateX(-50%);
+}
+.user{
+margin-right:.1rem;
+}
+/*====优势结束====*/
+/*====如何学习===*/
+
+.round{
+vertical-align:middle;
+height:.5rem;
+width:.5rem;
+border:1px solid #ccc;
+border-radius:50%;
+background-color:#fff;
+font-size:18px;
+color:#1BA36E;
+line-height:.5rem;
+text-align:center;
+}
+.contain{
+position:relative;
+left:.1rem;
+width:63%;
+letter-spacing:3px;
+}
+.step div{
+display:inline-block;
+}
+.step span{
+vertical-align:middle;
+color:#999;
+}
+.step{
+padding:0;
+line-height:.25rem;
+}
+.arrow{
+position:relative;
+right:-0.05rem;
+}
+.study-step{
+margin-bottom:1rem;
+}
+/*====如何学习结束====*/
+
+/*=====学员展示=====*/
+.show{
+margin-bottom:.2rem;
+padding:.2rem 0;
+border-radius:5px;
+height:4rem;
+background:#fff;
+-moz-box-shadow:1px 1px 2px #EEEDED;
+box-shadow:1px 1px 2px #EEEDED;
+}
+.pic-1,.pic-2,.pic-3,.pic-4{
+margin:0 auto .3rem;
+}
+.sm-title{
+font-size:.18rem;
+font-weight:bold;
+text-align:center;
+}
+.show span{
+padding-top:.2rem;
+padding-left:.22rem;
+padding-right:.1rem;
+font-size:16px;
+color:#999;
+letter-spacing:3px;
+}
+/*圆圈*/
+
+.circle{
+display:inline-block;
+margin:0 auto;
+height:.2rem;
+width:.2rem;
+border-radius:50%;
+background:#fff;
+-moz-box-shadow:1px 5px 3px #EEEDED;
+box-shadow:1px 5px 3px #EEEDED;
+}
+.green-circle{
+background-color:#29B078;
+}
+/*圆圈结束*/
+/*=====学员展示结束====*/
+/*=====战略企业=====*/
+.col-md-1-5{
+background-color:white;
+}
+.logo{
+vertical-align:middle;
+margin:.5rem auto;
+text-align:center;
+}
+.logo-hover{
+-moz-box-shadow:3px 5px 3px #EEEDED;
+box-shadow:3px 5px 3px #EEEDED;
+}
+.logo-ad{
+margin-bottom:1rem;
+}
+.logo-ad a:hover .logo-hover{
+box-shadow:2px -1px 3px 1px #e7e7e7;
+z-index:1;
+}
+/*====战略企业结束====*/
+
+
+/*====尾部====*/
+
+/*====友情链接====*/
+.links{
+padding:0;
+width:10%;
+text-align:center;
+}
+.links li{
+padding-bottom:.3rem;
+color:#999;
+}
+.links a{
+color:#999;
+}
+/*====友情链接结束====*/
+/*====关于====*/
+.about{
+padding-bottom:.3rem;
+border-bottom:1px solid #32c086;
+background:#29B078;
+font-size:16px;
+color:#fff;
+
+}
+.about a{
+color:#fff;
+}
+.skill-tree span{
+padding:.5rem 0 .8rem;
+}
+.web,.skill-tree{
+height:1.7rem;
+}
+.web span{
+padding:.5rem 0 .3rem;
+}
+.web-links{
+padding-top:.3rem;
+}
+.code{
+padding-top:.5rem;
+}
+.code span{
+margin-bottom:.1rem;
+}
+.copyright{
+background:#29B078;
+text-align:center;
+line-height:.3rem;
+font-size:12px;
+color:#fff;
+}
+
+/*====尾部结束====*/
+/*====图片===*/
+.img{background:url("images/img.png")  no-repeat;}
+.user{height:13px;width:13px;background-position:-120px 0;}
+.wechat{height:24px;width:25px;background-position:0 0;}
+.weibo{height:24px;width:25px;background-position:-40px 0;}
+.qq{height:24px;width:25px;background-position:-80px 0;}
+.arrow{height:26px;width:28px;background-position:-140px -70px;}
+.rocket{height:62px;width:43px;background-position:-140px 0;}
+.Shape{height:55px;width:52px;background-position:0 -40px;}
+.archive{height:48px;width:60px;background-position:-61px -40px;}
+
+.pic{background:url("images/pic.png")  no-repeat;}
+.qr-code{height:92px;width:92px;background-position:-144px -121px;}
+.pic-1{height:109px;width:108px;background-position:0 0;}
+.pic-3{height:108px;width:108px;background-position:0 -121px;}
+.pic-2{height:108px;width:108px;background-position:-139px 0;}
+.pic-4{height:108px;width:109px;background-position:-270px 0;}
+
+.logo{background:url("images/logo.png")  no-repeat;}
+.logo-2{height:58px;width:53px;background-position:0 0;}
+.logo-5{height:58px;width:124px;background-position:-60px 0;}
+.logo-3{height:58px;width:136px;background-position:-190px 0;}
+.logo-1{height:58px;width:145px;background-position:-334px 0;}
+.logo-4{height:58px;width:169px;background-position:-491px 0;}
+
+/*====bootstrap五等分====*/
+.col-md-1-5 {
+float: left;
+width: 20%;
+}
+
+.col-xs-1-5,.col-sm-1-5,.col-md-1-5,.col-lg-1-5 {
+position: relative;
+min-height: 1px;
+padding-left: 15px;
+padding-right: 15px;
+}
+/*========媒体查询========*/
+@media screen and (max-width:767px){
+	dd{
+	text-align:center;
+	}
+	.last{
+	padding:0.5rem 0;
+	border:0;
+	text-align:center;
+	}
+	.step{
+	text-align:center;
+	}
+	.col-md-1-5 {
+	float: left;
+	width: 50%;
+	}
+
+}
+@media screen and (max-width:425px){
+	.col-md-1-5 {
+	width: 100%;
+	float: left;
+	}
+	.links{
+	width:50%;
+	}
+
+}
+@media screen and (max-width:950px) and (min-width:426px){	
+	.links{
+	width:20%;
+	}
+}
