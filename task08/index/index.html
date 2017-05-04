@@ -11,10 +11,10 @@
  </head>
  <body>
 	<header>
-		<div class="container">
+		<div class="container contact-banner">
 			<div class="row">
-				<div class="col-xs-7">
-					<span class="text-left tel">客服热线：010-594-000</span>
+				<div class="col-xs-7 tel">
+					<span class="text-left">客服热线：010-594-000</span>
 				</div>
 				<div class="col-xs-5 text-right contact">
 					<a href="#"><span class="img wechat"></span></a>
@@ -26,10 +26,14 @@
 		<nav>
 			<div class="container">
 				<div class="row">
-				<div class="col-xs-5 text-left jnshu-logo">
-					<img src="images/www.jnshu.com.png">
+					<div class="col-xs-5 text-left jnshu-logo">
+						<img src="images/www.jnshu.com.png">
 					</div>
 					<div class="col-xs-7 text-right navbar-nav">
+						<div id="dropdown">
+							<img src="images/dropdown-btn.png"/>
+							
+						</div>
 						<ul class="text-right list-inline">
 							<li><a href="#">首&nbsp;页</a></li>
 							<li><a href="#">职&nbsp;业</a></li>
@@ -40,7 +44,15 @@
 				</div>
 			</div>
 		</nav>
-		<div id="myCarousel" class="carousel slide">
+		<div id="dropdown-content">
+			<ul>
+				<li class="content-1"><a href="#">首&nbsp;页</a></li>
+				<li class="content-1"><a href="#">职&nbsp;业</a></li>
+				<li class="content-1"><a href="#">推&nbsp;荐</a></li>
+				<li class="content-1"><a href="#">关&nbsp;于</a></li>
+			</ul>
+		</div>
+				<div id="myCarousel" class="carousel slide">
 			<!-- 轮播（Carousel）指标 -->
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -275,7 +287,53 @@
 		</div>
 		<div class="copyright">  Copyright © 2015北京葡萄藤信息技术有限公司 All Rights Reserved | 京ICP备15035574号-1</div>
 	</footer>
-		<script src="http://code.jquery.com/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+		
+
+
+ <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+	$(function(){
+		// 初始化轮播
+			$("#myCarousel").carousel('cycle');		
+	});
+</script>
+<script type="text/javascript">
+	function hideDiv(){
+        var browserWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        var div = document.getElementById("dropdown-content");
+		var flag=true; 
+        if(browserWidth > 767){
+            div.style.display = "none";
+		} 
+		else {
+           document.getElementById("dropdown").onclick=function displayDiv() 
+				{ 
+					var div=document.getElementById("dropdown-content"); 
+					if(flag){ 
+						div.style.display="block"; 
+					}
+					else {
+						div.style.display="none"; 
+					}
+					flag=!flag; 
+				}
+        }
+    }
+	
+	var timer = null;
+    window.onresize = function(){
+        timer && clearTimeout(timer);
+        setTimeout(function(){
+            hideDiv();
+        }, 200);
+    }
+
+    hideDiv();
+
+
+</script>
+
  </body>
 </html>
