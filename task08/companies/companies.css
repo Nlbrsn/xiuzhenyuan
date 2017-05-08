@@ -1,0 +1,288 @@
+/*====重置=====*/
+html{
+font-size:625%;
+}
+
+body,div,header,footer,nav,p,span,a,ul,li{
+margin:0;
+padding:0;
+}
+ul{
+display:inline-block;
+list-style:none;
+}
+a,li{
+text-decoration:none !important;
+}
+
+span{
+display:inline-block;
+}
+.title{
+margin-top:1rem;
+margin-bottom:.5rem;
+font-size:18px;
+font-weight:bold;
+color:#333;
+text-align:center;
+}
+/*=====重置结束=====*/
+/*======头部=====*/
+/*联系方式*/
+.contact-banner{
+padding:5px 15px;
+}
+header .tel{
+color:#29B078;
+}
+.tel{
+line-height:29px;
+}
+header div.text-right span{
+position: relative;
+top: 3px;
+margin-left:0.2rem;
+}
+
+/*联系方式结束*/
+.jnshu-logo{
+line-height:100px;
+}
+header>nav {
+height:1rem;
+background-color:#29B078;
+}
+header>nav .container{
+height:100px;
+}
+header>nav li{
+padding:0 !important;
+text-align:center;
+}
+header>nav a{
+display:inline-block;
+padding:0 20px;
+height:100px;
+font-size:16px;
+color:white;
+line-height:100px;
+}
+header>nav a:hover,header>nav a:visited{
+border-bottom:3px solid #fff;
+color:#fff;
+}
+.navbar-nav{
+height:100px;
+padding-right:0;
+margin:0;
+}
+
+#dropdown{
+display:none;
+height:37px;
+width:40px;
+margin-right:20px;
+border-radius:5px;
+position:relative;
+top:50%;
+transform: translateY(-50%);
+line-height:37px;
+text-align:center;
+}
+#dropdown:hover {
+background:#218D60;
+}
+#dropdown-content{
+display:none;
+background:#29B078;
+border-top:1px solid #ccc;
+}
+#dropdown-content ul{
+width:100%;
+}
+#dropdown-content li{
+list-style:none;
+text-align:center;
+line-height:50px;
+font-size:16px;
+}
+#dropdown-content a{
+color:#fff;
+}
+
+/*======头部结束=====*/
+/*主体*/
+.main{
+background:#FAFAFA;
+}
+.indexNavBar{
+margin:0 15px;
+font-size:16px;
+line-height:80px;
+}
+.indexNavBar a{
+color:#29B078;
+}
+/*左边*/
+.title{
+padding:20px;
+margin:0;
+border-bottom:1px solid #ccc;
+}
+.companies,.content{
+list-style:none;
+border:1px solid #ccc;
+border-radius:5px;
+margin-bottom:20px;
+background:#fff;
+}
+
+.companies ul{
+line-height:50px;
+padding:30px;
+}
+.center{
+text-align:center;
+}
+.circle{
+border:1px solid orange;
+border-radius:50%;
+width:10px;
+height:10px;
+margin-right:10px;
+}
+.companies a{
+color:#29b078;
+}
+.companies li{
+text-align:left;
+}
+.companies li:hover .circle{
+background:orange;
+}
+.logo{
+background:url("images/tudou.png") no-repeat;
+margin:10px 60px;
+margin-right:30px;
+vertical-align:middle;
+display:inline-block;
+width:134px;
+height:122px;
+}
+.company-introduction{
+vertical-align:middle;
+width:60%;
+padding:0 5px;
+text-justify: inter-ideograph;
+text-align: justify;
+word-break:break-all;
+line-height:25px;
+color:#999;
+}
+.introduction{
+border-bottom:1px solid #ccc;
+}
+.introduction p{
+padding:10px 60px;
+text-justify: inter-ideograph;
+text-align: justify;
+word-break:break-all;
+text-indent:25px;
+font-size:16px;
+line-height:30px;
+color:#999;
+}
+.company-content{
+padding-bottom:200px;
+}
+.blank{
+width:100%;
+height:500px;
+background:#FAFAFA;
+}
+/*====尾部====*/
+
+/*====关于====*/
+.about{
+padding-bottom:.3rem;
+border-bottom:1px solid #32c086;
+background:#29B078;
+font-size:16px;
+color:#fff;
+
+}
+.about a{
+color:#fff;
+}
+.skill-tree span{
+padding:.5rem 0 .8rem;
+}
+.web,.skill-tree{
+height:1.7rem;
+}
+.web span{
+padding:.5rem 0 .3rem;
+}
+.web-links{
+padding-top:.3rem;
+}
+.code{
+padding-top:.5rem;
+}
+.code span{
+margin-bottom:.1rem;
+}
+.copyright{
+background:#29B078;
+text-align:center;
+line-height:.3rem;
+font-size:12px;
+color:#fff;
+}
+
+footer nav a:hover {
+border-bottom:1px solid #ccc;
+}
+.about a{
+display:inline-block;
+padding-bottom:5px;
+}
+.about a:hover{
+border-bottom:2px solid #fff;
+padding-bottom:3px;
+}
+/*====尾部结束====*/
+/*====图片===*/
+.img{background:url("images/img.png")  no-repeat;}
+.wechat{height:24px;width:25px;background-position:0 0;}
+.weibo{height:24px;width:25px;background-position:-40px 0;}
+.qq{height:24px;width:25px;background-position:-80px 0;}
+
+.pic{background:url("images/pic.png")  no-repeat;}
+.qr-code{height:92px;width:92px;background-position:-144px -121px;}
+/*多媒体查询*/
+@media screen and (max-width:439px){
+	.contact{
+	display:none;
+	width:0%;
+	}
+	.tel{
+	width:100%;
+	}
+	.body{
+	font-size:12px;
+	}
+}
+@media screen and (max-width:767px){
+	.navbar-nav a{
+	display:none;
+	}
+	#dropdown{
+	display:inline-block;
+	}
+	.logo{
+	margin:0 auto;
+	}
+	
+}
+/*多媒体查询*/
