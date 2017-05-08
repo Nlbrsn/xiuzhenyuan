@@ -109,7 +109,10 @@ font-size:16px;
 #dropdown-content a{
 color:#fff;
 }
+.banner img{
+width: 100%; height: auto;max-width: 100%; display: block;
 
+}
 /*======头部结束=====*/
 /*主体*/
 .main{

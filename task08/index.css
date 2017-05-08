@@ -109,6 +109,9 @@ font-size:16px;
 color:#fff;
 }
 /*======头部结束=====*/
+.active img{
+width: 100%; height: auto;max-width: 100%; display: block;
+}
 /*======主体=====*/
 .main{
 background-color:#FAFAFA;
