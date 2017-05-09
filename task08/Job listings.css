@@ -36,6 +36,9 @@ color:#A9A9A9;
 color:red;
 }
 /*======头部=====*/
+.photo{
+float:left;
+}
 /*联系方式*/
 .contact-banner{
 padding:5px 15px;
@@ -163,44 +166,29 @@ font-size:16px;
 font-weight:bold;
 border-bottom:1px solid #ccc;
 }
-.content-head div{
-display:inline-block;
-}
-.content-head span{
-vertical-align:middle;
-}
 summary{
 background:#fff;
 border:1px solid #ccc;
 border-radius:5px;
 margin:40px 0;
 }
-.photo{
-position:relative;
-right:-0.1rem;
-padding:20px 0;
-width:40%;
+.content-head{
+padding-bottom:10px;
 }
-.photo img{
-width:90%;
+.photo{
+float:left;
+padding:10px;
+}
+.description b{
+display:block;
+line-height:30px;
 }
 .description{
-position:relative;
-width:50%;
-padding:0 -2px;
-font-size:12px;
-text-justify: inter-ideograph;
-text-align: justify;
+padding:10px;
 word-break:break-all;
 }
-
-.description b{
-display:inline-block;
-margin-bottom:10px;
-font-size:16px;
-font-weight:bold;
-}
 .threshold-complexity{
+clear:both;
 line-height:40px;
 border-top:1px solid #ccc;
 }
@@ -232,12 +220,18 @@ line-height:106px;
 padding-left:0;
 }
 .treatment-content{
-padding:0 15px;
+padding:0 5px;
 border-left:1px solid #ccc;
 border-bottom:1px solid #ccc;
 }
 .treatment-content:last-child{
 border-bottom:0;
+}
+.treatment-content .text-left{
+padding-right:0;
+}
+.treatment-content .text-right{
+padding-left:0;
 }
 .studying{
 border-top:1px solid #ccc;
@@ -321,13 +315,6 @@ padding-bottom:3px;
 	.tel{
 	width:100%;
 	}
-	.photo{
-	width:40%;
-	}
-	.description{
-	font-size:10px;
-	
-	}
 	.body{
 	font-size:12px;
 	}
@@ -344,11 +331,7 @@ padding-bottom:3px;
 	}
 	
 }
-@media screen and (max-width:992px){
-	.photo{
-	width:23%;
-	}
-}
+
 /*多媒体查询*/
 
 figure.effect-sadie figcaption {
@@ -367,7 +350,7 @@ transform: translate3d(0,50%,0);
 
 figure.effect-sadie figcaption,
 figure.effect-sadie p {
-line-height:40px;
+line-height:30px;
 text-justify: inter-ideograph;
 text-align: justify;
 padding:0 15px;
