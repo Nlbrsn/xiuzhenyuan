@@ -1,0 +1,383 @@
+/*====重置=====*/
+html{
+font-size:625%;
+}
+body,div,header,footer,nav,p,span,a,ul,li{
+margin:0;
+padding:0;
+}
+a,li{
+text-decoration:none !important;
+}
+span{
+display:inline-block;
+}
+/*=====重置结束=====*/
+/*======头部=====*/
+header{
+background:#1D7AD9;
+height:40px;
+font-size:16px;
+color:#fff;
+}
+header .tel{
+font-size:14px;
+line-height:40px;
+}
+.login-button div{
+display:inline-block;
+height:40px;
+font-weight:bold;
+line-height:40px;
+}
+.login{
+border-left:1px solid #fff;
+padding:0 10px;
+}
+.login a{
+color:#fff;
+}
+.register{
+padding:0 30px;
+background:#fff;
+}
+.register a{
+color:#000;
+}
+
+/*======头部结束=====*/
+/*====nav====*/
+.nav{
+background:#f9f9f9;
+font-size:16px;
+}
+.logo{
+display:inline-block;
+margin:20px 0;
+height:63px;
+width:138px;
+background:url("images/logo_03.png") no-repeat center;
+cursor:pointer;
+}
+.navbar-nav li.list-1{
+margin:25px 0 25px 40px;
+border-radius: 5px;
+box-shadow: 1px 1px 0 #e7e7e7;
+background: #fff;
+}
+.navbar-default .navbar-nav>li>a:active {
+background:#1076E2;
+color:#fff;
+}
+.navbar-default .navbar-nav>li>a:visited {
+background:#1076E2;
+}
+.navbar-nav>li>.dropdown-menu{
+padding:0;
+min-width:0;
+width:100%;
+}
+.dropdown-menu>li>a{
+padding:15px 20px;
+}
+.dropdown-menu>li:first-child{
+border-bottom:1px solid #ccc;
+}
+.navbar-default .navbar-nav>li>a{
+color:black;
+border-radius:5px;
+}
+.navbar-default .navbar-nav>li.list-2>a{
+border-radius:0;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+background:#1076E2;
+color:#fff;
+}
+.dropdown-menu>li>a:hover{
+background:#1076E2;
+color:#fff;
+}
+.navbar-default .navbar-toggle{
+border:0;
+margin-top:15px;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+background-color:transparent;
+}
+.navbar-default .navbar-toggle .icon-bar{
+background-color:#1076E2;
+}
+.navbar-toggle .icon-bar{
+height:5px;
+width:30px;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+color:#fff;
+background-color:#1076E2;
+}
+/*======流程图======*/
+.line{
+padding:2px 3vw;
+background-color:#ccc;
+}
+.number{
+border-radius:50%;
+width:20px;
+height:20px;
+background-color:#ccc;
+text-align:center;
+line-height:20px;
+font-size:12px;
+color:#fff;
+font-weight:bold;
+}
+.flowchart span{
+margin:20px 0;
+display:inline-block;
+vertical-align:middle;
+}
+.flowchart{
+font-size:0;
+}
+.flow-chart p{
+font-size:16px;
+text-align:center;
+color:#ccc;
+}
+.first{
+background-color:#ff7f02;
+}
+.flow-chart p.first-text{
+color:#ff7f02;
+}
+
+
+/*====流程图结束====*/
+/*====制定纸箱====*/
+/*标题*/
+.title{
+margin:50px 0;
+}
+.title p{
+border-left:4px solid #1076E2;
+height:20px;
+font-size:22px;
+line-height:16px;
+text-indent:6px;
+}
+/*表单内容*/
+.custom{
+border:1px solid #ccc;
+border-radius:5px;
+}
+/*===选择箱型===*/
+.box-type-title,.box-size-title,.texture-title{
+background-color:#F3F3F3;
+padding:0 15px;
+border-bottom:1px solid #ccc;
+}
+.box-type-title p{
+background:url("images/box.png") no-repeat left;
+}
+.box-type-title p,.box-size-title p,.texture-title p{
+padding-left:30px;
+font-size:18px;
+color:#1D7AD9;
+line-height:40px;
+}
+form{
+padding:3% 1%;
+border-bottom:1px solid #ccc;
+background:#FBFCFF;
+position:relative;
+overflow:hidden;
+zoom:1;
+}
+label{
+padding:0 2%;
+font-size:18px;
+font-weight:normal;
+}
+label span{
+vertical-align:middle;
+}
+
+.radio-button{
+display:inline-block;
+box-sizing:border-box;
+width: 20px;
+height: 20px;
+border:1px solid #ccc;
+border-radius:50%;
+margin:0 10px;
+background:#F8F8FB;
+}
+input[type="radio"]:checked +span{
+width: 20px;
+height: 20px;
+background:#fff;
+border: 7px solid #1d7ad9;
+border-radius: 50%;
+}
+input[type="radio"]{
+display:none;
+}
+select{
+text-align:center;
+padding:5px 40px 5px 20px;
+right:5%;
+border: 1px solid #ccc;
+appearance:none;
+-moz-appearance:none;
+-webkit-appearance:none;
+background: url("images/Open.jpg") no-repeat 98% 50%;
+background-color:#fff;
+font-size:14px;
+color:#ccc;
+float:right;
+}
+.box-size-title p{
+background:url("images/Ruler.png") no-repeat left;
+}
+input[type="text"]{
+width:80px;
+border:1px solid #E8E8E8;
+}
+.outer,.inner{
+padding:1% 0;
+}
+.box-size select{
+display:inline-block;
+float:right;
+}
+.box-size-choose{
+}
+.texture-title p{
+background:url("images/Cut_Scissors.png") no-repeat left;
+}
+/*====选择箱型结束====*/
+/*====按钮====*/
+.next{
+text-align:center;
+}
+.next-step{
+width:100%;
+margin:200px 0 100px;
+}
+.next-step{
+height:40px;
+max-width:150px;
+border:0;
+border-radius:5px;
+background:#CD494C;
+color:#fff;
+font-size:18px;
+}
+/*====尾部====*/
+
+/*====关于====*/
+.about{
+margin-top:50px;
+padding-bottom:.3rem;
+background:#F9F9F9;
+font-size:14px;
+color:#999;
+}
+.web a{
+color:#999;
+}
+.web a,.introduce span{
+padding:.6rem .15rem 0 0;
+}
+.copyright{
+background:#1D7AD9;
+text-align:center;
+line-height:.3rem;
+font-size:12px;
+color:#fff;
+}
+.about a{
+display:inline-block;
+padding-bottom:5px;
+}
+.about a:hover{
+color:#1d7ad9;
+}
+.chatbox{
+line-height:30px;
+padding-top:.6rem;
+padding-right:0;
+}
+footer img{
+padding-top:.6rem;
+}
+
+/*====尾部结束====*/
+@media screen and (max-width: 767px){
+	.list-1{
+    display: none !important;
+    }
+	.list-2{
+    display: block;
+	text-align:center;
+    }
+	.logo{
+	margin:5px 0;
+	}
+	.login-button{
+	display:none;
+	}
+	label{
+	padding:5% 2%;
+	}
+}
+@media screen and (min-width: 768px){
+    .list-2{
+    display: none !important;
+    }
+	.box-size select{
+	position:absolute;
+	top:50%;
+	right:15px;
+	transform:translateY(-50%);
+	}
+
+}
+@media screen and (max-width:500px){
+	.flowchart .line{
+	padding:2px 10px;
+	}
+	.flow-chart p{
+	font-size:12px;
+	}
+	.title p{
+	height:14px;
+	font-size:16px;
+	line-height:14px;
+	}
+	.logo{
+	width:30%;
+	background-size:100%;
+	}
+	.box-type select{
+	text-align:center;
+	}
+	.web a,.introduce span{
+	padding:.15rem;
+	}
+}
+@media screen and (min-width:992px){
+	.chat{
+	text-align:right;
+	}
+	.chatbox{
+	text-align:right;
+	}
+}
